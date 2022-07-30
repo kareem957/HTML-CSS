@@ -1,0 +1,48 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+    font-family: sans-serif;
+}
+.navbar-container > div > img {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.list li {
+    list-style-type: none;
+    display: flex;
+    margin-right: 30px;
+    font-size: 25px;
+}
+.list li:hover {
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    flex: 4;
+    justify-content: flex-end;
+    margin-top: 5px;
+    margin-right: -6px;
+}
+
+.search-icon svg {
+    width: 30px !important;
+    height: 25px !important;
+    margin-top: 15px;
+}
+.nav-button {
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+}
