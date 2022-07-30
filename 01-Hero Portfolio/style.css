@@ -46,3 +46,82 @@
     font-size: 20px;
     margin-left: 10px;
 }
+
+/* hero-container */
+.hero-container {
+    display: flex;
+    flex-direction: row;
+}
+.square {
+    position: relative;
+    width: 70px;
+    top: 170px;
+    left: 95px;
+}
+.star {
+    position: relative;
+    left: 960px;
+    top: 50px;
+}
+.start img {
+    width: 50px;
+    height: 50px;
+}
+.globe {
+    position: relative;
+    left: 550px;
+}
+.globe img {
+    width: 50px;
+    height: 50px;
+}
+.globe + div > img {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    right: 130px;
+    top: 25px;
+}
+
+/* hero-container-right */
+.hero-container-right {
+    display: flex;
+    flex-direction: column;
+    width: 75% !important;
+    margin-top: 88px;
+    justify-content: center;
+    text-align: center;
+}
+.hero-heading {
+    font-size: 52px;
+    font-family: sans-serif;
+}
+.hero-description {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.button-email {
+    background-color: #fff;
+    color: #5a5a58;
+    border-radius: 6px;
+    border: 1px solid black;
+    padding: 3px 20px;
+    margin-top: 60px;
+    margin-right: 15px;
+}
+.button-join {
+    background-color: #000;
+    color: #fff;
+    margin-top: 60px;
+    border-radius: 6px;
+    padding: 2.5px 3px;
+}
+.contact-heading {
+    margin-top: 60px;
+    color: #848480;
+    font-family: sans-serif;
+}
+.icons > span > img {
+    margin-right: 10px;
+    background-color: #fff;
+}
