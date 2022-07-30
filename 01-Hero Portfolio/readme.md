@@ -23,3 +23,6 @@ In style.css file i write all the code for the styling .
 > Images Folder
 
 -   It contains all the project images & icons .
+
+### Sample Website Image
+![hero.txt](https://s4.gifyu.com/images/Screenshot-2022-07-30-at-10.49.48-PMf62d85e781002c47.png)
