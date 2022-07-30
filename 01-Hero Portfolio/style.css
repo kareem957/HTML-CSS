@@ -9,9 +9,11 @@
     flex-direction: row;
     margin-right: 100px;
 }
+
 .list {
     display: flex;
     flex-direction: row;
+    /* margin-left: 30px; */
 }
 
 .list li {
@@ -25,11 +27,10 @@
     text-decoration: underline;
     cursor: pointer;
 }
-
 .button-group {
     display: flex;
     flex-direction: row;
-    flex: 4;
+    flex: 1;
     justify-content: flex-end;
     margin-top: 5px;
     margin-right: -6px;
@@ -48,10 +49,12 @@
 }
 
 /* hero-container */
+
 .hero-container {
     display: flex;
     flex-direction: row;
 }
+
 .square {
     position: relative;
     width: 70px;
@@ -63,9 +66,9 @@
     left: 960px;
     top: 50px;
 }
-.start img {
-    width: 50px;
+.star img {
     height: 50px;
+    width: 50px;
 }
 .globe {
     position: relative;
@@ -83,7 +86,6 @@
     top: 25px;
 }
 
-/* hero-container-right */
 .hero-container-right {
     display: flex;
     flex-direction: column;
@@ -92,6 +94,7 @@
     justify-content: center;
     text-align: center;
 }
+
 .hero-heading {
     font-size: 52px;
     font-family: sans-serif;
@@ -100,28 +103,34 @@
     font-family: sans-serif;
     font-size: 14px;
 }
+
 .button-email {
-    background-color: #fff;
-    color: #5a5a58;
-    border-radius: 6px;
-    border: 1px solid black;
-    padding: 3px 20px;
     margin-top: 60px;
+    background-color: #fff;
+    padding: 3px 20px;
+    border-radius: 6px;
+    color: #5a5a58;
+    border: 1px solid black;
     margin-right: 15px;
 }
 .button-join {
-    background-color: #000;
-    color: #fff;
     margin-top: 60px;
-    border-radius: 6px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    border-radius: 5px;
     padding: 2.5px 3px;
+    font-family: sans-serif;
 }
+
 .contact-heading {
     margin-top: 60px;
     color: #848480;
     font-family: sans-serif;
 }
-.icons > span > img {
-    margin-right: 10px;
-    background-color: #fff;
+.icons > span > a > img {
+    margin-right: 13px;
+}
+.icons > span > a > img:hover {
+    zoom: 1;
+    cursor: pointer;
 }
